@@ -10,10 +10,33 @@
     <main>
         <h1>Cricket Game</h1>
         <div class="butn">
-            <button></button>
-            <button></button>
-            <button></button>
+            <button onclick="
+                // console.log('You have choose a Bat');
+                let Num= Math.random()*3;
+                if(Num>0 && Num==1 ){
+                    console.log('Bat');
+                }
+                
+                "> Bat</button>
+            <button onclick="
+            console.log('You have choose a Ball');
+            let random= Math.random()*3;
+            if(random>1 && random==2){
+                console.log('Ball');
+            }
+            
+            "> Ball</button>
+            <button onclick="
+            console.log('You have choose a Stump');
+            let randomNumber= Math.random()*3;
+            if(randomNumber>2 && randomNumber===3){
+                console.log('Stump');
+            }
+            ">Stump</button>
         </div>
     </main>
 </body>
+<script src="index.js">
+
+</script>
 </html>
